@@ -99,15 +99,14 @@ apt autoremove
 Now you can create an OpenSips config and set to autostart.  Remember to install the correct bits of opensips to match your config or you’ll get a service not started 
 ```
 journalctl -xe
-```
-[…]
+
 -- 
 -- Unit opensips.service has finished shutting down.
 Jan 22 11:07:23 sbc systemd[1]: opensips.service: Start request repeated too quickly.
 Jan 22 11:07:23 sbc systemd[1]: opensips.service: Failed with result 'exit-code'.
 Jan 22 11:07:23 sbc systemd[1]: Failed to start OpenSIPS is a very fast and flexible SIP (RFC3261) server.
-[…]
+```
 
 #Some useful commends
-apt-cache search opensips* - Lists all the opensips modules you can install
-dpkg -L opensips - Lists where all the files are installed
+```apt-cache search opensips*``` - Lists all the opensips modules you can install
+```dpkg -L opensips``` - Lists where all the files are installed
