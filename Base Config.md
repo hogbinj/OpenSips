@@ -111,5 +111,5 @@ Jan 22 11:07:23 sbc systemd[1]: Failed to start OpenSIPS is a very fast and flex
 
 # Some useful commends
 `apt-cache search opensips*` - Lists all the opensips modules you can install
-
 `dpkg -L opensips` - Lists where all the files are installed
+`/usr/sbin/osipsconfig` - OpenSips Config
