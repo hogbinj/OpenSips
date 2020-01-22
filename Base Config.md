@@ -38,6 +38,7 @@ apt-get install opensips
 ```
 apt-get install libssl-dev
 apt install libncurses5-dev
+apt-get install -y m4
 apt-get install python3 python3-pip python3-dev gcc default-libmysqlclient-dev
 pip3 install mysqlclient sqlalchemy sqlalchemy-utils pyOpenSSL
 git clone https://github.com/opensips/opensips-cli ~/src/opensips-cli
